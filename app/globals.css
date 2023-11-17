@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ACTIVE NAVLINK STYLE */
+.active-navlink {
+    background: linear-gradient(45deg, #D434FE, #903AFF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+}
+
+/* SIDEBAR STYLED BORDER */
+.styled-border {
+    border: double 1px transparent;
+    border-radius: 80px;
+    background-image: linear-gradient(#150E28, #150E28), radial-gradient(circle at top left, #903AFF, #FE34B9);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    padding: 2px;
+}
